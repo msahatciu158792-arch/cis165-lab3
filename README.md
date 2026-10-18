@@ -3,10 +3,10 @@
 ## Program plans — complete in your own words
 
 ### `diamond.cpp`
-TODO: Describe your plan for reproducing the seven lines, including how the leading spaces change from line to line.
+I will use seven separate cout statements to print the diamond one line at a time. The top line has three spaces and one asterisk. Each line below it adds asterisks and removes spaces until the middle line has seven asterisks. The bottom half repeats the pattern in reverse. I will compare the output in Terminal with the required pattern to check the spacing.
 
 ### `game_time.cpp`
-TODO: List the assigned minute values, how you will calculate hours and remaining minutes, how you will calculate the difference, and which results you will display.
+I will store the assigned times of 78 and 144 minutes in named constants. I will use integer division by 60 to calculate the hours and the remainder operator to calculate the remaining minutes. I will subtract the Level 1 time from the Level 2 time to find the difference. I will store the calculated results in variables before displaying all three results with labels.
 
 > Before submitting, replace both TODOs with your own explanation. Do not claim you wrote either plan before using AI if that is not what happened.
 
